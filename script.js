@@ -35,6 +35,7 @@ $(document).ready(function() {
             var row = rowArray.join(",");
             csvContent += row + "\r\n";
           });
+          console.log("SI SE IMPRIME ESTO, ES EL ÚLTIMO ARCHIVO")
 
           // Descargar el archivo CSV generado
           var encodedUri = encodeURI(csvContent);
